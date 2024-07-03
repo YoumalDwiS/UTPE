@@ -1,0 +1,140 @@
+/* AVATAR */
+
+.avatar {
+    width: 3rem;
+    height: 3rem;
+}
+
+.avatar {
+    position: relative;
+    display: inline-block;
+}
+
+.avatar .avatar-title {
+    font-size: 18px;
+}
+
+.avatar .border {
+    border-width: 3px !important;
+}
+
+.avatar-title {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+/* FORM */
+
+.required:after {
+    content: "*";
+    position: relative;
+    font-size: inherit;
+    color: #F1416C;
+    margin-left: 0.25rem;
+    font-weight: bold;
+}
+
+/* LOADING SCREEN */
+
+.loading {
+    align-items: center;
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999
+}
+
+.loading-content {
+    /* animation: 2s linear infinite; */
+
+    /* border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top-color: #3498db; */
+    /* height: 500px; */
+    /* width: 500px */
+    position: relative;
+}
+
+/* .loading-message {
+    color: #fff;
+    left: 50%;
+    margin-top: 40px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateX(-50%)
+} */
+
+/* .loading-message span {
+    color: hsla(0, 0%, 100%, .5);
+    font-size: 20px;
+    text-shadow: 0 0 15px hsla(0, 0%, 100%, .5)
+} */
+
+/* @keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes loading {
+
+    0%,
+    to {
+        color: hsla(0, 0%, 100%, 0);
+        text-shadow: 0 0 15px hsla(0, 0%, 100%, .5)
+    }
+
+    50% {
+        color: hsla(0, 0%, 100%, .9);
+        text-shadow: 0 0 15px hsla(0, 0%, 100%, .8)
+    }
+}*/
+
+
+/* Hide Arrow Input Number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    appearance: textfield;
+}
+
+.bg-stock-green {
+    background-color: #00cc66 !important;
+}
+
+.badge-custom-purple {
+    background-color: #8A2BE2; /* Contoh kode warna ungu */
+    color: #ffffff; /* Warna teks untuk kontras */
+}
+
+.badge-oval {
+    border-radius: 50px; 
+}
+
+
+
